@@ -28,6 +28,8 @@
                     <p>*This should all be text</p>
                 </div>
             </div>
+            <!-- The first image and text -->
+
 
             <div id="FirstParagraph">
                 <h2>JANUARY 28, 2016</h2>
@@ -40,6 +42,9 @@
             <div id="DogPicture1">
                 <img src="img/Section2Dog.png" alt="The picture of the dog">
             </div>
+
+            <!-- Second Section -->
+
 
             <div id="NewFeatures">
                 <h2>NEW FEATURES</h2>
@@ -64,6 +69,9 @@
                 <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
             </div>
 
+            <!-- Features with 3 columns/rows -->
+
+
              <div id="DogPicture2">
                 <img src="img/Section4Dog.png" alt="The second picture of the dog">
             </div>
@@ -76,7 +84,10 @@
                 Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
             </div>
 
-            <div id="Clients">
+            <!-- Begin client section -->
+
+
+            <div style="background-image: url(img/ClientsBG.png)" id="Clients">
                 <div class="imageinback2">
                     <img src="img/ClientsBG.png" alt="Some Nice Triangles in a background"> 
                 </div>
@@ -102,9 +113,12 @@
                         <p>“Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”</p>
                     </div>
 
-                    <img src="img/ClientLogos.png" alt="Some of the past client's logos">
+                    <img src="img/ClientLogos.png" style="width:70%;padding-left:15%;" alt="Some of the past client's logos">
                 </div>
             </div>
+
+            <!-- Browser section with that nice image of chrome -->
+
 
             <div id="Browser">
                 <h2>SERIOUSLY</h2>
@@ -115,37 +129,69 @@
 
             <div id="FormsForDays">
                 <h2>THIS FORM DOESN'T HAVE TO WORK</h2>
-                <h1>But create it anyway.  Use the right fields ...</h1>
+                <h1>But create it anyway.  Use the right <br>fields ...</h1>
                 <form method="get" action="#">
-                        <button type="TRY NOW">FULL NAME</button>
-                        <button type="TRY NOW">YOUR EMAIL</button>
-                        <button type="TRY NOW">PASSWORD</button>
-                        <button style="background-color:#ff6d6d;padding-right:14%" type="TRY NOW">TRY NOW</button>
+                    <div id="WholeFormButtons">
+                        <div id="FormsButtons">
+                            <button type="TRY NOW">FULL&nbsp;NAME</button>
+                        </div>
+
+                        <div id="FormsButtons">
+                            <button type="TRY NOW">YOUR&nbsp;EMAIL</button>
+                        </div>
+
+                        <div id="FormsButtons">
+                            <button type="TRY NOW">PASSWORD</button>
+                        </div>
+
+                        <div id="TryNowButton">
+                            <button style="background-color:#ff6d6d;" type="TRY NOW">TRY NOW</button>
+                        </div>
+
+                        <div id="FreeTrial">
+                            <img style="width:45%;" src="img/FreeTrial.png" alt="Free Trial">
+                        </div>
+
+                    </div>
                 </form>
                 <p>And some small text should go here.</p>
             </div>
 
+            <!-- 3 similar buttons as forms, the try now button in its own seperate div -->
+
+
             <footer>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. 
-                <br>USA &  CAN: 1-888-123-4567
-                <br>Address: 34 Brokel Rd. NY<p>
-                <h1>Support</h1>
-                <p>Help Center<br>
-                   Get Started<br>
-                   Contact US
-                </p>
-                <h1>About US</h1>
-                <p>About Us<br>
-                   Terms of Use<br>
-                   Privacy Policy
-                </p>
-                <h1>Get Newsletter</h1>
-                <form method="get" action="#">
+                <div id="FooterSection1">
+                    <p>Aenean&nbsp;lacinia&nbsp;bibendum&nbsp;nulla&nbsp;sed consectetur.&nbsp;Aenean&nbsp;eu&nbsp;leo&nbsp;quam. 
+                    <br>USA&nbsp;&&nbsp;CAN:&nbsp;1-&nbsp;888-&nbsp;123-&nbsp;4567
+                    <br>Address:&nbsp;34&nbsp;Brokel&nbsp;Rd.&nbsp;NY</p>
+                </div>
+
+                <div id="FooterSection">
+                    <h1>Support</h1>
+                    <p>Help&nbsp;Center<br>
+                       Get&nbsp;Started<br>
+                       Contact&nbsp;US
+                    </p>
+                </div>
+
+                <div id="FooterSection">
+                    <h1>About&nbsp;US</h1>
+                    <p>About&nbsp;Us<br>
+                       Terms&nbsp;of&nbsp;Use<br>
+                       Privacy&nbsp;Policy
+                    </p>
+                </div>
+
+                <div id="FooterSection">
+                    <h1>Get Newsletter</h1>
+                    <form method="get" action="#">
                         <button type="TRY NOW">EMAIL</button>
-                </form>
-                <a href="#">
-                <img src="img/MailIcon.png" alt="Submit" width="10%" height="10%" border="0">
-                <img src="img/NewsletterIcons.png" alt="Newsletter Social Media Icons" class="LastImage">
+                    </form>
+                    <a href="#">
+                    <img src="img/MailIcon.png" alt="Submit" border="0">
+                    <img src="img/NewsletterIcons.png" alt="Newsletter Social Media Icons" class="LastImage">
+                </div>
             </footer>
 
         </main>
