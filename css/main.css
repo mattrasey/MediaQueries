@@ -26,21 +26,25 @@ main{
     margin:0 auto;
 }
 
+#Head{
+    overflow:hidden;
+}
+
 #Head img{
-    width:102%;
+    width:100%;
 }
 
 .imageinback{ 
    position: relative; 
-   width: 100%;
+   width:100%;
 }
 
 .imageinback p{
     position:absolute;
-    top:52%;
-    left:42%;
+    top:53%;
+    left:43%;
     color:grey;
-    font-size:1.5vw;
+    font-size:1.3vw;
 }
 
 #Head h1{ 
@@ -160,7 +164,7 @@ button {
     padding-bottom:20px;
 }
 #Clients img{
-    width:101%;
+
 }
 
 .imageinback2{ 
@@ -224,7 +228,7 @@ button {
 
 #FormsForDays h2{
     color:#ff6d6d;
-    font-size:1.5vw;
+    font-size:1.2vw;
     text-align:center;
     padding-top:50px;
     margin-top:0px;
@@ -236,32 +240,49 @@ button {
     text-align:center;
 }
 
-#FormsButtons button{
-    margin-left:34%;
-    color:white;
+#FormsButtons input{
+    color:#d2cfcf;
     background-color:#464c77;
-    padding:2% 12%;
-    font-size:1.8vw;
+    padding:5% 22%;
+    font-size:2vw;
     border-radius:3px;
     margin-top:10px;
     border: 1px solid white;
+    margin-left:18%;
+    text-align:center;
+}
+
+#FormsButtons2 input{
+    color:#d2cfcf;
+    background-color:#ff6d6d;
+    padding:5% 22%;
+    font-size:2vw;
+    border-radius:3px;
+    margin-top:10px;
+    border: 1px solid white;
+    margin-left:18%;
+    text-align:center;
+}
+
+#WholeFormButtons{
+    width:99%;
 }
 
 #FormsForDays p{
     color:#b5b5b5;
     text-align:center;
-    padding-top:60px;
+    padding-top:120px;
     padding-bottom:60px;
+}
+
+#TryNowButton input{
+    margin-left:34%;
+    margin-top:.5%;
+    padding:2.25% 13%;
 }
 
 #FreeTrial{
     display:none;
-}
-
-#TryNowButton button{
-    margin-left:34%;
-    margin-top:.5%;
-    padding:2.25% 13%;
 }
 
 /* Start footer section */
@@ -294,6 +315,7 @@ footer img{
     width:10%;
     margin-top:.85%;
     margin-left:-28%;
+    padding-bottom:20px;
 }
 
 .LastImage{
@@ -409,18 +431,30 @@ footer img{
     clear:both;
 }
 
-#FormsButtons{
-    margin-left:10%;
-    float:left;
+#WholeFormButtons{
+
 }
 
-#FormsButtons button{
-    padding:8% 80%;
-    font-size:1.4vw;
-    padding-top:15%;
-    padding-bottom:15%;
-    font-size:10px;
-    text-align:center;
+#FormsButtons{
+    float:left;
+    margin-left:2%;
+}
+
+#FormsButtons input{
+    padding:5% 4%;
+    font-size:1vw;
+    text-align:left;
+    margin-left:218%;
+}
+
+#FormsButtons2 input{
+    background-color:#ff6d6d;
+    border:none;
+    color:white;
+    font-size:1vw;
+    padding:.6% 2%;
+    margin-left:25.5%;
+
 }
 
 #TryNowButton button{
@@ -431,14 +465,8 @@ footer img{
 }
 
 #FreeTrial{
-    position:absolute;
-    margin-left:53%;
-    margin-top:-6.5%;
-    display:inline;
-}
-
-#WholeFormButtons{
-    margin-left:13%;
+    display:block;
+    margin-left:63%;
 }
 
 footer{
@@ -566,6 +594,17 @@ body{
     margin-left:3%;
     margin-right:5%;
     float:none;
+}
+
+#FormsButtons input{
+
+}
+
+#TryNowButton button{
+    padding:11px 46px;
+    font-size:1vw;
+    margin-left:12.5%;
+    margin-top:.8%;
 }
 
 #FreeTrial{
